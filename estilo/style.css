@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'League-Fonte';
+    src: url(../fonts/BeaufortForLoL-OTF/BeaufortforLOL-Italic.otf);
+}
+@font-face {
+    font-family: 'Text-League';
+    src: url(../fonts/BeaufortForLoL-OTF/BeaufortforLOL-Bold.otf);
+}
+/* ======= Configurações gerais ======== */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html,body,main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0D0D0D;
+
+}
+
+main#pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+/* =========================PARTE DA ESQUERDA =========================*/
+
+section#left-login{
+    width: 50vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+section#left-login > h1 {
+    color: #A7292A; 
+    font-family: 'League-Fonte', serif;
+}
+
+section#left-login > img{
+    width: 60%;
+}
+
+
+
+/* ==================PARTE DA DIREITA====================== */
+
+section#right-login{
+    width: 50vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#card-login{
+    width: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 30px 35px;
+    background-color: #262626;
+    border-radius: 20px;
+    box-shadow: 0px 10px  40px #00000054;
+}
+ 
+div#card-login > h1 {
+    color: #E6E6E6;
+    font-weight: bold;
+    font-family: 'Text-League';
+    
+}
+div.dados{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+
+
+}
+
+div.dados > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #E6E6E6;
+    color: #262626;
+    font-size: 13pt ;
+    outline: none;
+    
+}
+div.dados > input::placeholder{
+    color: #26262694;
+}
+
+div.dados > label{
+    color: #D9D9D9;
+}
+
+button.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    
+    border: none;
+    border-radius: 8px;
+    outline: none;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: white;
+    background-color: #F22425;
+    box-shadow: 0px 10px 40px -12px #f22424da;
+
+    cursor: pointer;
+}    
+
+/* ============ Footer ========== */
