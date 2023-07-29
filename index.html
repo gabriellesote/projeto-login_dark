@@ -1,44 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en" >
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login-Dark</title>
+    <title> tentativa 2</title>
     <link rel="stylesheet" href="estilo/style.css">
-    <link rel="shortcut icon" href="images/favicon-1.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/media-queries.css">
 </head>
-<body>
-    <main id="pagina">
 
-        <section id="left-login">
-            <h1> Bem-vindo(a)! <br> Entre no nosso time.  </h1>
-            <img src="images/cat-astronaut-animate (1).svg" alt="cherry-blossom">
+<body id="container">
+
+    <main id="conteudo" >
+
+        <section id="left">
+            <h1>Olá, pessoa querida!</h1>
+            <img src="imgs/cat-astronaut-animate (2).svg" id="gato" alt="floating-cat" >
         </section>
+        <section id="right">
+            <article id="card-login">
 
-        <section  id="right-login">
+                <h1> LOGIN</h1>
 
-            <div id="card-login">
-                
-                <h1>LOGIN </h1>
+                <div class="dados">
+                    <label for="iuser">Usuário</label>
+                    <input type="text" name="user" id="iuser" placeholder="Usuário">
+                </div>
 
-                
+                <div class="dados">
+                    <label for="ipass">Senha</label>
+                    <input type="password" name="pass" id="ipass" placeholder="Senha">
+                </div>
+                <button class="btn-login">login</button>
 
-                    <div class="dados">
-                        <label for="iuser">Usuário</label>
-                        <input type="text" name="user" id="iuser" placeholder="Usuário">
-                    </div>
-
-                    <div class="dados">
-                        <label for="ipass">Senha</label>
-                        <input type="password" name="pass" id="ipass" placeholder="Senha">
-                    </div>
-                    <button class="btn-login">login</button>
-            
-            </div>
+            </article>
         </section>
     </main>
-    <aside><a href="https://storyset.com/nature">Nature illustrations by Storyset</a>
-    <a href="https://www.youtube.com/watch?v=69-WfrVBli8&t=1958s">Tutorial feito por Markzuel.</a>
-    </aside>
+    <footer>
+        <a href="https://storyset.com/nature">©️Nature illustrations by Storyset</a>
+
+        <a href="https://github.com/gabriellesote">&#9734 Gabrielle Soares &#9734</a>
+
+        <a href="https://www.youtube.com/watch?v=69-WfrVBli8&t=1958s">Tutorial feito por Markzuel.</a>
+    </footer>
+
+    
 </body>
+
 </html>
